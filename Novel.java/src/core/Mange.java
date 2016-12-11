@@ -1,6 +1,6 @@
 package core;
 
-public class Test {
+public class Mange {
 
 	public static void main(String[] args) {
 		System.out.println("まんげ");
