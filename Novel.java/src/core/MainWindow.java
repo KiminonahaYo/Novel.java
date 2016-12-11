@@ -12,7 +12,7 @@ import javax.swing.JPanel;
 
 public class MainWindow {
 
-	private JFrame frame;
+	private JFrame frmNoveljavaGameEngine;
 
 	/**
 	 * Launch the application.
@@ -22,7 +22,7 @@ public class MainWindow {
 			public void run() {
 				try {
 					MainWindow window = new MainWindow();
-					window.frame.setVisible(true);
+					window.frmNoveljavaGameEngine.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -41,12 +41,13 @@ public class MainWindow {
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
-		frame = new JFrame();
-		frame.setBounds(0, 50, 1280, 720);
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frmNoveljavaGameEngine = new JFrame();
+		frmNoveljavaGameEngine.setTitle("Novel.java Game Engine alpha");
+		frmNoveljavaGameEngine.setBounds(0, 50, 1280, 720);
+		frmNoveljavaGameEngine.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		JPanel MenuPanel = new JPanel();
-		frame.getContentPane().add(MenuPanel, BorderLayout.NORTH);
+		frmNoveljavaGameEngine.getContentPane().add(MenuPanel, BorderLayout.NORTH);
 		MenuPanel.setLayout(new GridLayout(0, 1, 0, 0));
 		
 		JMenuBar menuBar = new JMenuBar();
@@ -59,7 +60,7 @@ public class MainWindow {
 		mnApps.add(mntmExit);
 		
 		JPanel panel_1 = new JPanel();
-		frame.getContentPane().add(panel_1, BorderLayout.SOUTH);
+		frmNoveljavaGameEngine.getContentPane().add(panel_1, BorderLayout.SOUTH);
 	}
 
 }
