@@ -2,7 +2,7 @@ package core;
 
 public class Mange {
 
-	public static void main(String[] args) {
+	public static void MangePrint() {
 		System.out.println("まんげ");
 	}
 
