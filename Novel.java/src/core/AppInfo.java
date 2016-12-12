@@ -1,6 +1,6 @@
 package core;
 
-public class Info {
+public class AppInfo {
 
 	public static void MangePrint() {
 		System.out.println("まんげ");
