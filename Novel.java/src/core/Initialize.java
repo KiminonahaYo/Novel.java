@@ -9,7 +9,9 @@ public class Initialize {
 		//Environment specific initialization.
 		core.Boot.EnvironmentInitialize();
 		System.out.println();
+		System.out.println(";isjf;ijs;oijef;isj;eijfs");
 		
+				
 		//Print application information to console.
 		core.AppInfo.PrintAppInfo();
 		
